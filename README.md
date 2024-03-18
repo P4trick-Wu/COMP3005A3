@@ -8,10 +8,11 @@ https://youtu.be/HjPmEWfGLBU
 
 Instructions for running application:
 
-1. Use the A3initialization.sql file to initialize and populate the students database schema.
+1. Use the A3initialization.sql file to initialize and populate the students database schema. Open the postgresql server, if the database name and port aren't Assignment3 and 5432 respectively, change line 7 of
+   Main.java to the port and database where the students database is initialized. Make sure the server is up.
 
-2. Use the maven build script in IntelliJ after opening the Assign3 directory to load the JDBC driver dependencies for the database.
+3. Use the maven build script in IntelliJ after opening the Assign3 directory to load the JDBC driver dependencies for the database.
 
-3. Navigate to Main.java within A3App\src\main\java\, compile and run the program.
+4. Navigate to Main.java within A3App\src\main\java\, compile and run the program.
 
-4. Follow instructions printed out to the terminal to use the database application.
+5. Follow instructions printed out to the terminal to use the database application.
